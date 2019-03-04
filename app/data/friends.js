@@ -1,59 +1,52 @@
-
+// These are dummy data's to show case who you match with.
     
-// ===============================================================================
-// DATA
-// Below data will hold all of the reserved tables.
-// Initially we just set it equal to a "dummy" customer.
-// But you could have it be an empty array as well.
-// ===============================================================================
-
 var surveyArray = [
     {
-        "name":"Fat Murph",
-        "photo":"https://upload.wikimedia.org/wikipedia/commons/b/bf/1905_cartoon_of_Charlie_Murphy_as_a_prisoner.jpg",
+        "name":"Sponge Bob",
+        "photo":"https://studybreaks.com/wp-content/uploads/2018/12/sb1.jpg",
         "scores":[
+            3,
             5,
-            1,
-            4,
-            4,
-            5,
-            1,
             2,
             5,
+            1,
+            5,
+            1,
+            3,
             4,
-            1
-          ]
-      },
-    {
-        "name":"Thaddaeus Peithner ",
-        "photo":"https://upload.wikimedia.org/wikipedia/commons/7/76/Thaddaeus_Peithner_von_Lichtenfels_1870.jpg",
-        "scores":[
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
             5
           ]
       },
     {
-        "name":"Cosplay Cat",
-        "photo":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Celtic_tiger_cartoon.png",
+        "name":"Patrick Star",
+        "photo":"https://costumewall.com/wp-content/uploads/2017/10/patrick-star.jpg",
         "scores":[
+            2,
+            2,
+            4,
+            1,
+            3,
+            4,
+            2,
+            3,
+            2,
+            5
+          ]
+      },
+    {
+        "name":"Squidward",
+        "photo":"https://static.tvtropes.org/pmwiki/pub/images/spongebob_squidward.jpg",
+        "scores":[
+            5,
+            3,
+            2,
+            3,
+            3,
             1,
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
+            3,
+            5,
+            5
           ]
       },
   ];

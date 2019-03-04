@@ -1,3 +1,4 @@
+// linking routes to data/friends
 var surveyData = require("../data/friends.js");
 
 module.exports = function(app) {

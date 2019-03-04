@@ -1,9 +1,5 @@
-/* 
-Your htmlRoutes.js file should include two routes:
-A GET Route to /survey which should display the survey page.
-A default, catch-all route that leads to home.html which displays the home page.
-*/
 
+// calling path to get the correct file path for the html
 var path = require("path");
 
 module.exports = function(app) {
@@ -16,6 +12,7 @@ module.exports = function(app) {
       res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
   
+    // if there are no matches, it will go to default which is home.
     app.get("*", function(req, res) {
       res.sendFile(path.join(__dirname, "../public/home.html"));
     });
