@@ -7,6 +7,23 @@ var bodyParser = require("body-parser");
 //  Setting up the path package. : ultilities for working with file and directory paths.
 var path = require("path");
 
+var mysql = require("mysql");
+var connection;
+
+if (process.env.JAWSDB_URL) {
+  connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  connection = mysq.createConnection({
+    host: 'qbct6vwi8q648mrn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+    user: 'wsje6v6qtzbr5lj2',
+    password: 'yrsdjz3b1o77sz81',
+    database: 'w91p5kdo0qidnj3r'
+  })
+}
+
+connection.connect();
+module.exports = connection;
+
 // Creating an epxress server.
 var app = express();
 
